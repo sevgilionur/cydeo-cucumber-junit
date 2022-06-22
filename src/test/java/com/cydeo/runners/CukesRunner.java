@@ -8,6 +8,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {
                 //"pretty",
+                "json:target/cucumber.json",
+                "junit:target/junit/junit-report.xml",
                 "html:target/cucumber-reports.html",
                 "rerun:target/rerun.txt",
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber"
