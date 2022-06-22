@@ -1,6 +1,6 @@
 Feature: Wikipedia search functionality and verifications
 
-
+  @onur
   Scenario: Wikipedia Search Functionality Title Verification
     Given User is on Wikipedia home page
     When User types "Bill Gates" in the wiki search box
